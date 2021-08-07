@@ -34,9 +34,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:autofillHints="Url"
-                android:hint="@string/url"
                 android:ems="10"
-                android:inputType="textUri|textPersonName"/>
+                android:hint="@string/url"
+                android:inputType="textUri|textPersonName"
+                android:minHeight="48dp" />
 
             <Button
                 android:id="@+id/goButton"
